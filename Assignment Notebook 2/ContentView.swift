@@ -40,7 +40,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $showingAddAssignmentView) {
-                AddAssignment(assignmentList: assignmentList)
+                AddAssignmentView(assignmentList: assignmentList)
             }
             .navigationBarTitle("Assignments", displayMode: .inline)
             .navigationBarItems(leading: EditButton(), trailing: Button(action: { showingAddAssignmentView = true }) {
@@ -59,4 +59,3 @@ struct AssignmentItem: Identifiable, Codable {
     var description = String()
     var dueDate = Date()
 }
-

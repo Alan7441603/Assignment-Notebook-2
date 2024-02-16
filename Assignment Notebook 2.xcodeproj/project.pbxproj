@@ -12,6 +12,7 @@
 		EAA555022B7D4A96006D3181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA555012B7D4A96006D3181 /* Assets.xcassets */; };
 		EAA555052B7D4A96006D3181 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA555042B7D4A96006D3181 /* Preview Assets.xcassets */; };
 		EAA5550E2B7DDA5D006D3181 /* AddAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5550D2B7DDA5D006D3181 /* AddAssignment.swift */; };
+		EAA555102B7F20C6006D3181 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5550F2B7F20C6006D3181 /* AssignmentList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EAA555012B7D4A96006D3181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA555042B7D4A96006D3181 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EAA5550D2B7DDA5D006D3181 /* AddAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignment.swift; sourceTree = "<group>"; };
+		EAA5550F2B7F20C6006D3181 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				EAA554FD2B7D4A96006D3181 /* Assignment_Notebook_2App.swift */,
 				EAA554FF2B7D4A96006D3181 /* ContentView.swift */,
 				EAA5550D2B7DDA5D006D3181 /* AddAssignment.swift */,
+				EAA5550F2B7F20C6006D3181 /* AssignmentList.swift */,
 				EAA555012B7D4A96006D3181 /* Assets.xcassets */,
 				EAA555032B7D4A96006D3181 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA555102B7F20C6006D3181 /* AssignmentList.swift in Sources */,
 				EAA5550E2B7DDA5D006D3181 /* AddAssignment.swift in Sources */,
 				EAA555002B7D4A96006D3181 /* ContentView.swift in Sources */,
 				EAA554FE2B7D4A96006D3181 /* Assignment_Notebook_2App.swift in Sources */,
